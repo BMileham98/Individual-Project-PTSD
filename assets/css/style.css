@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgb(17, 215, 222);
+}
+
+.navbar a {
+    color:aliceblue;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+.navbar a.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+section {
+    padding-top: 56px;
+    background-color:rgb(180, 235, 241);
+}
+
+
