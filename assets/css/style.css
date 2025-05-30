@@ -2,6 +2,19 @@ body {
      background-color:rgb(180, 235, 241);
 }
 
+footer {
+    background-color: rgb(17, 215, 222);
+}
+
+footer p {
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: aliceblue;
+}
 
 .navbar {
     background-color: rgb(17, 215, 222);
@@ -33,4 +46,16 @@ body {
 .carousel img {
     width: 200px;
     height: 200px;
+}
+
+@media screen and (min-width:768px) {
+    .carousel {
+        width: 50%;
+        height: 50%;
+    }
+    
+    .carousel img {
+        width: 300px;
+        height: 300px;
+    }
 }
