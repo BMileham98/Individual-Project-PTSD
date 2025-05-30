@@ -1,3 +1,8 @@
+body {
+     background-color:rgb(180, 235, 241);
+}
+
+
 .navbar {
     background-color: rgb(17, 215, 222);
 }
@@ -15,9 +20,12 @@
     font-weight: bold;
 }
 
-section {
+
+#about {
     padding-top: 56px;
-    background-color:rgb(180, 235, 241);
 }
 
-
+.carousel img {
+   width:400px;
+   height:200px;
+ }
