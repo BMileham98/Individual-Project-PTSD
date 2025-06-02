@@ -8,7 +8,7 @@ footer {
 
 footer p {
     color: aliceblue;
-    text-align: center;
+    text-align: right;
     padding: 10px;
 }
 
@@ -46,6 +46,17 @@ footer a {
 .carousel img {
     width: 200px;
     height: 200px;
+}
+
+#carouselExample2.carousel-item {
+    min-height: 180px;           /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+section {
+    padding-bottom:20px;
 }
 
 @media screen and (min-width:768px) {
