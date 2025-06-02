@@ -57,7 +57,9 @@ footer a {
 
 section {
     padding-bottom:20px;
+    margin:30px;
 }
+
 
 @media screen and (min-width:768px) {
     .carousel {
