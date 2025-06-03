@@ -15,6 +15,7 @@ body {
     display:flex;
     min-height: 300px;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 #hero h1 {
