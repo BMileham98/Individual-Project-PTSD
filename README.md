@@ -1,9 +1,9 @@
-# Individual-Project-PTSD
+# Happier Futures
 
 ## Introduction
 
 
-(Placeholder) is my first individual project born from my studies of HTML and CSS with Code Institute's Full Stack Bootcamp. My desire for this project is to help spread awareness of Post-Traumatic Stress Disorder in a manner that is more digestible, especially for young survivors and their loved ones.
+Happier Futures is my first individual project born from my studies of HTML and CSS with Code Institute's Full Stack Bootcamp. My desire for this project is to help spread awareness of Post-Traumatic Stress Disorder in a manner that is more digestible, especially for young survivors and their loved ones.
 
 I chose this subject to test my newfound knowledge of HTML, CSS and Bootstrap because it is something I am passionate about and I would love to make this particular topic less frightening for those affected.
 
@@ -38,30 +38,65 @@ These wireframes were created with Balsamiq, referring to the original planned d
 
 ### Colour Scheme and Design Aesthetic
 
+I researched colour psychology to decide the exact colour scheme I would use for this website. I found that blue and green are considered 'calming' colours and the NHS often uses these colours for that reason. Therefore I decided the colour scheme should meet the two colours half-way, therefore I decided to go with teal and other shades of bluish green. This decision was further justified when I discovered that the awareness ribbon for PTSD is teal.
+
+To keep to a child-friendly theme I decided to use rabbits as the motif. These are prey animals that exhibit some of the same defense mechanisms we have, plus I thought it would make the topic more palpable. I could find images of rabbits to tie to each of the five fear responses I wanted to cover.
+
 ### Responsiveness
+
+Happier Futures has been built with a mobile-first approach and as such various elements such as the carousel and navbar have been adjusted to work on a variety of screen sizes.
 
 
 ## Features
 
 ### Navigation Bar
 
+The navigation bar is simple and fixed to the top of the site with padding applied to the sections so they are not hidden. It contains links to all sections and collapses on smaller screens. The active link is bold so it can be easily identified.
+
 ### About Section
+
+The about section has a basic description of PTSD, written with simple terms so it is easier to understand and less intimidating as a result.
 
 ### 'The Five Fs' Carousel
 
+The Five Fs section includes a carousel with captions that briefly describe each response with complimentary images, this carousel changes size based on the screen size and the follow-up paragraph sits to the side of it on these bigger screens while resting beneath on smaller screens.
+
 ### Symptoms
 
-### Affirmations
+The symptoms section uses cards, with their height set so they are always the same height in spite of their varying amount of descriptions. These use information I researched using the PTSDUK charity website, however I have reworded the information to be more simple.
+Underneath, there is a separate paragraph on dissociation in particular, which falls under Avoidance but I split apart to conserve the layout.
+
+### Resources
+
+The resources section is also the affirmations section. It has a text-only carousel with motivational quotes on rotation. Above this is a few sites as well as a small number of helplines for urgent help. By linking the resources, it allows me to keep the simple language used for this site while providing sites for those who want to know the science behind the condition.
 
 ### Footer
-
+The footer is basic and doubles as a small contact section with icons that link to Facebook, X (formerly known as Twitter) and Bluesky. These are justified to the right to make it a little more tidy.
 
 ## Future Refinements
 
+There are many things I would like to do in the future. I did not have time to implement a proper contact section and would like to make this a separate webpage with a form. 
+I did not have the time to make a dedicated support page either, I would like to make this eventually and have it full of tips and even more resources to help others out.
+
+I also wished to make my own logos, images and favicons. I did not have time to do these but I think the theme would come together nicely if I managed it. It would add a more unique charm, I think!
+
 ## Testing
+
+I tested on multiple layouts, it is generally responsive.
 
 ### Lighthouse
 
+![Lighthouse](assets/images/Readme/Lighthouse.png)
+
+My Lighthouse score was unfortunately unsatisfactory following some last minute tweaks, I would have to spend more time maybe shrinking images and minimise last minute changes to prevent it.
+
 ## Credits
 
+
+I got my research from the Mind and PTSDUK sites.
+
+My code has been partially aided by Github co-pilot and the navbar and carousel were tweaked from the bootstrap documentation. 
+
 ### AI Declaration
+
+I have used Ai to help me fill in some info then tweaked it myself. I also used AI for some of the images. Particularly the hero image. 
